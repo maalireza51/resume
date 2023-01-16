@@ -8,9 +8,9 @@ const index = () => {
           <HiUser className="w-6 h-6 text-skin" />
           <h3 className="text-lg font-bold ml-2">About Me</h3>
         </div>
-        <div className="mb-6">
+        <div className="mb-10">
           <h3 className="text-lg font-thin mb-5 text-neutral-300">Front-end Developer</h3>
-          <p className="mb-3">
+          <p>
             I'm a huge passionate about web, designing and coding. Creative
             front-end developer offering +3 years of experience working with
             Javascript, Html/Css skilled in designing, developing and working
@@ -18,8 +18,8 @@ const index = () => {
             highly collaborative work environment, finding solutions and
             determining customer satisfaction
           </p>
-          <hr/>
-          <div className="flex flex-col md:flex-row flex-wrap mb-3">
+          {/* <hr/> */}
+          <div className="flex flex-col md:flex-row flex-wrap mb-10">
             <div>
               <div className=" flex-1 mr-3 pt-2">
                 <span className="font-semibold mr-2 pl-px border-l-2 border-skin ">Age:</span>
