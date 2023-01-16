@@ -4,44 +4,7 @@
 
 @layer base {
   :root {
-    --color-skin: 14 165 233;
-  }
-
-  .theme-purple {
     --color-skin: 168 85 247;
-  }
-  .theme-blue {
-    --color-skin: 59 130 246;
-  }
-  .theme-lightBlue {
-    --color-skin: 14 165 233;
-  }
-  .theme-yellow {
-    --color-skin: 234 179 8;
-  }
-  .theme-red {
-    --color-skin: 239 68 68;
-  }
-  .theme-green {
-    --color-skin: 34 197 94;
-  }
-  .theme-orange {
-    --color-skin: 249 115 22;
-  }
-  .theme-pink {
-    --color-skin: 236 72 153;
-  }
-  .theme-lime {
-    --color-skin: 132 204 22;
-  }
-  .theme-emerald {
-    --color-skin: 16 185 129;
-  }
-  .theme-teal {
-    --color-skin: 20 184 166;
-  }
-  .theme-cyan {
-    --color-skin: 6 182 212;
   }
 }
 
@@ -52,4 +15,69 @@
     padding: theme("spacing.6");
     box-shadow: theme("boxShadow.xl");
   }
+}
+
+.theme-purple {
+  --color-skin: 168 85 247;
+}
+.theme-blue {
+  --color-skin: 59 130 246;
+}
+.theme-lightBlue {
+  --color-skin: 14 165 233;
+}
+.theme-yellow {
+  --color-skin: 234 179 8;
+}
+.theme-red {
+  --color-skin: 239 68 68;
+}
+.theme-green {
+  --color-skin: 34 197 94;
+}
+.theme-orange {
+  --color-skin: 249 115 22;
+}
+.theme-pink {
+  --color-skin: 236 72 153;
+}
+.theme-lime {
+  --color-skin: 132 204 22;
+}
+.theme-emerald {
+  --color-skin: 16 185 129;
+}
+.theme-teal {
+  --color-skin: 20 184 166;
+}
+.theme-cyan {
+  --color-skin: 6 182 212;
+}
+
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(var(--color-skin)) transparent;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #efeffe;
+  border-radius: 5px;
+}
+
+.dark *::-webkit-scrollbar-track{
+  background: #4b4b4b;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--color-skin));
+  border-radius: 14px;
+  border: 0px solid transparent;
 }
