@@ -9,7 +9,9 @@ const index = () => {
           <h3 className="text-lg font-bold ml-2">About Me</h3>
         </div>
         <div className="mb-10">
-          <h3 className="text-lg font-thin mb-5 text-neutral-300">Front-end Developer</h3>
+          <h3 className="text-lg font-thin mb-5 text-neutral-300">
+            Front-end Developer
+          </h3>
           <p>
             I'm a huge passionate about web, designing and coding. Creative
             front-end developer offering +3 years of experience working with
@@ -22,11 +24,15 @@ const index = () => {
           <div className="flex flex-col md:flex-row flex-wrap mb-10">
             <div>
               <div className=" flex-1 mr-3 pt-2">
-                <span className="font-semibold mr-2 pl-px border-l-2 border-skin ">Age:</span>
+                <span className="font-semibold mr-2 pl-px border-l-2 border-skin ">
+                  Age:
+                </span>
                 25
               </div>
               <div className=" flex-1 mr-3 pt-2">
-                <span className="font-semibold mr-2 pl-px border-l-2 border-skin ">Address:</span>
+                <span className="font-semibold mr-2 pl-px border-l-2 border-skin ">
+                  Address:
+                </span>
                 <span className="whitespace-nowrap">Tehran Province</span>
               </div>
             </div>
@@ -49,7 +55,7 @@ const index = () => {
             <div>
               <div className="flex flex-1 pt-2">
                 <span className="font-semibold mr-2 pl-px self-start border-l-2 border-skin ">
-                  Contact: 
+                  Contact:
                 </span>
                 <div className="inline-flex gap-1">
                   <a href="mailto:Maalireza@gmail.com">
@@ -66,37 +72,37 @@ const index = () => {
               </div>
             </div>
           </div>
-          <hr/>
+          <hr />
           <div className="flex flex-wrap gap-1 mt-3">
-            <span className="rounded-md border border-skin py-1 px-2">
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               ReactJS
             </span>
-            <span className="rounded-md border border-skin py-1 px-2">
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               redux/redux-toolkit
             </span>
-            <span className="rounded-md border border-skin py-1 px-2">
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               NextJS
             </span>
-            <span className="rounded-md border border-skin py-1 px-2">
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               TypeScript
             </span>
-            <span className="rounded-md border border-skin py-1 px-2">
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               Sass&Scss
             </span>
-            <span className="rounded-md border border-skin py-1 px-2">
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               JavaScript
             </span>
-            <span className="rounded-md border border-skin py-1 px-2">Git</span>
-            <span className="rounded-md border border-skin py-1 px-2">
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">Git</span>
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               Jquery
             </span>
-            <span className="rounded-md border border-skin py-1 px-2">
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               RestAPI
             </span>
-            <span className="rounded-md border border-skin py-1 px-2">
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               Tailwind
             </span>
-            <span className="rounded-md border border-skin py-1 px-2">
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               Bootstrap
             </span>
           </div>
