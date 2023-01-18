@@ -9,7 +9,6 @@ const ProfileImg = () => {
         height={150}
         alt="Alireza Mashayekhi"
         className="rounded-full border-2"
-        priority={true}
       />
     </div>
   );

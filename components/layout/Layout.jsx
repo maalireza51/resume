@@ -6,6 +6,7 @@ import Content from "./content/Content";
 import Sidebar from "./sidebar/Sidebar";
 import BgLayer from "../skin/bgLayer/BgLayer";
 import Palette from "../skin/palette/Palette";
+import Printable from "./printable/Printable";
 
 const boxAnimation = {
   key: "main",
@@ -29,12 +30,12 @@ const Layout = ({ children }) => {
 
   return (
     <div className={`${skinTheme} ${boneTheme ? "dark" : "light"}`}>
-      <div className="lg:bg-slate-50 dark:bg-neutral-800 lg:dark:bg-neutral-600">
+      <div className="hidden lg:bg-slate-50 dark:bg-neutral-800 lg:dark:bg-neutral-600">
         <BgLayer />
 
         <div className="min-h-screen flex flex-col">
           <div className="h-screen flex flex-col lg:flex-row flex-1 lg:px-14 lg:items-center overflow-hidden">
-            <Sidebar className="z-10"/>
+            <Sidebar className="z-10" />
             <motion.main
               {...boxAnimation}
               className="h-[80vh] flex-col lg:flex-row flex-1 lg:mx-3 lg:border border-inherit md:shadow-lg lg:dark:shadow-neutral-900 lg:rounded-lg bg-white dark:bg-neutral-800 dark:border-neutral-900"
@@ -46,6 +47,7 @@ const Layout = ({ children }) => {
 
         <Palette />
       </div>
+      <Printable/>
     </div>
   );
 };
