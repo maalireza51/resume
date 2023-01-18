@@ -18,10 +18,10 @@ const Portfolio = () => {
       </div>
       {!open ? (
         <div className="columns-1 md:columns-2 lg:columns-3 gap-3 p-4">
-          <Item img={"portfolio"} handler={handleSpecs} />
-          <Item img={"hubispot"} handler={handleSpecs} />
-          <Item img={"qmoil"} handler={handleSpecs} />
           <Item img={"shopenet"} handler={handleSpecs} />
+          <Item img={"qmoil"} handler={handleSpecs} />
+          <Item img={"hubispot"} handler={handleSpecs} />
+          <Item img={"portfolio"} handler={handleSpecs} />
           <Item img={"dekapay"} handler={handleSpecs} />
         </div>
       ) : (

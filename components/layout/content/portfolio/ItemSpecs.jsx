@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import { HiOutlineArrowLeft } from "react-icons/hi2";
 import { specs } from "./specs";

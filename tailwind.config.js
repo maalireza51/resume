@@ -18,5 +18,7 @@ module.exports = {
       skin: "rgb(var(--color-skin) / <alpha-value>)",
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 };
