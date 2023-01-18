@@ -4,10 +4,7 @@ import { motion } from "framer-motion";
 const Post = ({ post }) => {
   return (
     <motion.div
-      className="relative shadow-lg dark:shadow-black rounded-lg m-3 overflow-hidden"
-      initial={{ y: "30px", opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      duration={{ duration: 1 }}
+      className="relative shadow-lg dark:shadow-black rounded-lg m-3 overflow-hidden" initial={{y:"10%",opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5}}
     >
       <div>
         <Image

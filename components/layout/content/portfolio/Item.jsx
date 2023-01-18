@@ -6,7 +6,7 @@ import { BsFullscreen } from "react-icons/bs";
 const Item = ({ img, handler }) => {
   const [hover, setHover] = useState(false);
   return (
-    <div
+    <motion.div initial={{scale:0}} animate={{scale:1}} transition={{duration:0.5}}
       className="relative overflow-hidden rounded-md shadow-md shadow-neutral-900
      bg-slate-50 mb-5"
       onClick={()=>handler(img)}
@@ -34,7 +34,7 @@ const Item = ({ img, handler }) => {
           <BsFullscreen className="w-6 h-6" />
         </span>
       </motion.div>
-    </div>
+    </motion.div>
   );
 };
 

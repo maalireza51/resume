@@ -1,4 +1,5 @@
 import { HiUser, HiPhone, HiEnvelope } from "react-icons/hi2";
+import { motion } from "framer-motion";
 
 const index = () => {
   return (
@@ -8,7 +9,12 @@ const index = () => {
           <HiUser className="w-6 h-6 text-skin" />
           <h3 className="text-lg font-bold ml-2">About Me</h3>
         </div>
-        <div className="mb-10">
+        <motion.div
+          className="mb-10"
+          initial={{ scale:0, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1}}
+        >
           <h3 className="text-lg font-thin mb-5 text-neutral-300">
             Front-end Developer
           </h3>
@@ -92,7 +98,9 @@ const index = () => {
             <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               JavaScript
             </span>
-            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">Git</span>
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
+              Git
+            </span>
             <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               Jquery
             </span>
@@ -106,7 +114,7 @@ const index = () => {
               Bootstrap
             </span>
           </div>
-        </div>
+        </motion.div>
       </section>
     </>
   );
