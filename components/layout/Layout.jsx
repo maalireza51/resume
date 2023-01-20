@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className={`${skinTheme} ${boneTheme ? "dark" : "light"}`}>
-      <div className="hidden lg:bg-slate-50 dark:bg-neutral-800 lg:dark:bg-neutral-600">
+      <div className="print:hidden lg:bg-slate-50 dark:bg-neutral-800 lg:dark:bg-neutral-600">
         <BgLayer />
 
         <div className="min-h-screen flex flex-col">
@@ -47,7 +47,9 @@ const Layout = ({ children }) => {
 
         <Palette />
       </div>
-      <Printable/>
+      <div className="hidden print:block dark:bg-neutral-700 dark:text-white">
+        <Printable />
+      </div>
     </div>
   );
 };

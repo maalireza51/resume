@@ -1,17 +1,30 @@
 import { HiClipboardDocumentList } from "react-icons/hi2";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 const Resume = () => {
   return (
     <section>
-      <div className="flex border-b-2">
-        <HiClipboardDocumentList className="w-6 h-6 text-skin" />
-        <h3 className="text-lg font-bold ml-2">Resume</h3>
+      <div className="flex justify-between border-b-2">
+        <div className="flex">
+          <HiClipboardDocumentList className="w-6 h-6 text-skin" />
+          <h3 className="text-lg font-bold ml-2">Resume</h3>
+        </div>
+        <a
+          href="/AlirezaMashayekhi-Resume.pdf"
+          className="mx-3 text-skin text-sm px-5 text-center hover:underline"
+        >
+          Download CV
+        </a>
       </div>
-      <div>
+      <div className="p-3">
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
-          <motion.li className="mb-7 ml-4" initial={{x:"10%",opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.5}}>
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <motion.li
+            className="mb-7 pl-4"
+            initial={{ x: "10%", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 ring-8 ring-white dark:ring-neutral-800"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2022
             </time>
@@ -23,8 +36,13 @@ const Resume = () => {
               to design and develop my CV template by NextJS
             </p>
           </motion.li>
-          <motion.li className="mb-7 ml-4" initial={{x:"10%",opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.5,delay:0.5}}>
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <motion.li
+            className="mb-7 pl-4"
+            initial={{ x: "10%", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+          >
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 ring-8 ring-white dark:ring-neutral-800"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2021
             </time>
@@ -37,8 +55,13 @@ const Resume = () => {
               components with Hooks.
             </p>
           </motion.li>
-          <motion.li className="mb-7 ml-4" initial={{x:"10%",opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.5,delay:1}}>
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <motion.li
+            className="mb-7 pl-4"
+            initial={{ x: "10%", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 1 }}
+          >
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 ring-8 ring-white dark:ring-neutral-800"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2019
             </time>
@@ -50,8 +73,13 @@ const Resume = () => {
               projects such as Portfolio, Admin Panel and . . .
             </p>
           </motion.li>
-          <motion.li className="mb-7 ml-4" initial={{x:"10%",opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.5,delay:1.5}}>
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <motion.li
+            className="mb-7 pl-4"
+            initial={{ x: "10%", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 1.5 }}
+          >
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 ring-8 ring-white dark:ring-neutral-800"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2018
             </time>
@@ -62,8 +90,13 @@ const Resume = () => {
               Learned Adobe Illustrator and Adobe XD
             </p>
           </motion.li>
-          <motion.li className="mb-7 ml-4" initial={{x:"10%",opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.5,delay:2}}>
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <motion.li
+            className="mb-7 pl-4"
+            initial={{ x: "10%", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 2 }}
+          >
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 ring-8 ring-white dark:ring-neutral-800"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2017
             </time>
@@ -76,8 +109,13 @@ const Resume = () => {
               based IOT automation.
             </p>
           </motion.li>
-          <motion.li className="mb-7 ml-4" initial={{x:"10%",opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.5, delay:2.5}}>
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <motion.li
+            className="mb-7 pl-4"
+            initial={{ x: "10%", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 2.5 }}
+          >
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 ring-8 ring-white dark:ring-neutral-800"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2015
             </time>
