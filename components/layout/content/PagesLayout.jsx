@@ -9,7 +9,7 @@ const PagesLayout = ({ children }) => {
     setTimeout(() => {
       setPageChange(false);
     }, 1000);
-  }, [pageChange]);
+  }, [setPageChange,pageChange]);
 
   return (
     <div className="overflow-auto overflow-x-hidden h-full dark:text-neutral-50">

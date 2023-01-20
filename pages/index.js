@@ -6,12 +6,6 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Alireza Mashayekhi</title>
-        <meta name="description" content="Resume & CV" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/am.ico" />
-      </Head>
       <div className="flex flex-col justify-center items-center h-full">
         <div className="flex items-center lg:hidden mt-20">
           <ProfileImg />

@@ -26,6 +26,7 @@ const Post = ({ post }) => {
           href={post?.link}
           className="absolute left-2 bottom-2 capitalize rounded-lg py-1 px-3 shadow-lg dark:shadow-black"
           target={"_blank"}
+          rel="noopener noreferrer"
         >
           read more
         </a>

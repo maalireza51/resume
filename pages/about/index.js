@@ -19,7 +19,7 @@ const index = () => {
             Front-end Developer
           </h3>
           <p>
-            I'm a huge passionate about web, designing and coding. Creative
+            I&aposm a huge passionate about web, designing and coding. Creative
             front-end developer offering +3 years of experience working with
             Javascript, Html/Css skilled in designing, developing and working
             with Reactjs library in Nextjs framework. Adept at contributing to a
