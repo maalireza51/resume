@@ -85,8 +85,36 @@ const Printable = () => {
           <div className="flex justify-center py-2 border-2 rounded-sm border-white font-bold mb-3">
             Skills
           </div>
+          <div className="flex justify-between">
+            <span className="font-semibold">NextJS</span>
+            <span className="bg-black/30 rounded-md"></span>
+          </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">Html/Css/Javascript</span>
+            <span className="font-semibold">ReactJS</span>
+            <span className="bg-black/30 rounded-md"></span>
+          </div>
+          <div className="flex justify-between mb-1">
+            <span className="font-semibold">redux ,redux-toolkit</span>
+            <span className="bg-black/30 rounded-md"></span>
+          </div>
+          <div className="flex justify-between mb-1">
+            <span className="font-semibold">Rest API, Supabase</span>
+            <span className="bg-black/30 rounded-md"></span>
+          </div>
+          <div className="flex justify-between mb-1">
+            <span className="font-semibold">GIT</span>
+            <span className="bg-black/30 rounded-md"></span>
+          </div>
+          <div className="flex justify-between mb-1">
+            <span className="font-semibold">Bootstrap ,TailwindCss</span>
+            <span className="bg-black/30 rounded-md"></span>
+          </div>
+          <div className="flex justify-between mb-1">
+            <span className="font-semibold">ChakraUI ,MaterialUi ,Formik</span>
+            <span className="bg-black/30 rounded-md"></span>
+          </div>
+          <div className="flex justify-between mb-1">
+            <span className="font-semibold">ES6/ES7</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
@@ -98,35 +126,7 @@ const Printable = () => {
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">Bootstrap</span>
-            <span className="bg-black/30 rounded-md"></span>
-          </div>
-          <div className="flex justify-between mb-1">
-            <span className="font-semibold">Tailwind Css</span>
-            <span className="bg-black/30 rounded-md"></span>
-          </div>
-          <div className="flex justify-between mb-1">
-            <span className="font-semibold">GIT</span>
-            <span className="bg-black/30 rounded-md"></span>
-          </div>
-          <div className="flex justify-between mb-1">
-            <span className="font-semibold">Rest API</span>
-            <span className="bg-black/30 rounded-md"></span>
-          </div>
-          <div className="flex justify-between mb-1">
-            <span className="font-semibold">ES6/ES7</span>
-            <span className="bg-black/30 rounded-md"></span>
-          </div>
-          <div className="flex justify-between mb-1">
-            <span className="font-semibold">ReactJS</span>
-            <span className="bg-black/30 rounded-md"></span>
-          </div>
-          <div className="flex justify-between mb-1">
-            <span className="font-semibold">Redux/redux-toolkit</span>
-            <span className="bg-black/30 rounded-md"></span>
-          </div>
-          <div className="flex justify-between">
-            <span className="font-semibold">NextJS</span>
+            <span className="font-semibold">Html ,Css ,Javascript</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
         </div>
