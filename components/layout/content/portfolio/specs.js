@@ -18,7 +18,7 @@ export const specs= {
         id:3,
         title:"shopenet",
         description:"Teamwork in shopenet",
-        link:"shopenet.ir"
+        link:"http://www.shopenet.ir"
     },dekapay:{
         id:4,
         title:"dekapay",
