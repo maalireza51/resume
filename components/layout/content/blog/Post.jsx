@@ -6,7 +6,7 @@ const Post = ({ post }) => {
     <motion.div
       className="relative shadow-lg dark:shadow-black rounded-lg m-3 overflow-hidden" initial={{y:"10%",opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.5}}
     >
-      <div>
+      {/* <div>
         <Image
           alt={post?.title}
           src={post?.imgsrc}
@@ -30,7 +30,7 @@ const Post = ({ post }) => {
         >
           read more
         </a>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
