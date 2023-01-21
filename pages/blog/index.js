@@ -1,5 +1,5 @@
 import { HiNewspaper } from "react-icons/hi2";
-import Post from "../../components/layout/content/blog/post";
+import Post from "../../components/layout/content/blog/Post";
 import { postsList } from "../../components/layout/content/blog/postsList";
 
 const Blog = () => {
