@@ -28,12 +28,12 @@ const Printable = () => {
         <div className="text-lg font-bold">Alireza Mashayekhi</div>
         <div className=" mb-5">
           <a
-            href="https://www.alireza-mashayekhi.ir"
+            href="https://www.alireza-mashayekhi.netlify.app"
             className="underline underline-offset-4"
             target="_blank"
             rel="noopener noreferrer"
           >
-            www.alireza-mashayekhi.ir
+            www.alireza-mashayekhi.netlify.app
           </a>
         </div>
         <div className="bg-black/50 w-full text-center py-2 mb-3">
@@ -94,11 +94,15 @@ const Printable = () => {
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">redux ,redux-toolkit</span>
+            <span className="font-semibold">redux ,redux-toolkit, context API</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">Rest API, Supabase</span>
+            <span className="font-semibold">Rest API, axios</span>
+            <span className="bg-black/30 rounded-md"></span>
+          </div>
+          <div className="flex justify-between mb-1">
+            <span className="font-semibold">Supabase</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
@@ -110,11 +114,7 @@ const Printable = () => {
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">ES6/ES7</span>
-            <span className="bg-black/30 rounded-md"></span>
-          </div>
-          <div className="flex justify-between mb-1">
-            <span className="font-semibold">Sass/Scss</span>
+            <span className="font-semibold">SCSS, SASS</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
