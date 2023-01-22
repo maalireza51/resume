@@ -28,10 +28,10 @@ const Printable = () => {
         <div className="text-lg font-bold">Alireza Mashayekhi</div>
         <div className=" mb-5">
           <a
-            href="https://www.alireza-mashayekhi.netlify.app"
+            href="https://alireza-mashayekhi.netlify.app/"
             className="underline underline-offset-4"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             www.alireza-mashayekhi.netlify.app
           </a>
