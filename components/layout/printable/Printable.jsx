@@ -110,10 +110,6 @@ const Printable = () => {
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">ChakraUI ,MaterialUi ,Formik</span>
-            <span className="bg-black/30 rounded-md"></span>
-          </div>
-          <div className="flex justify-between mb-1">
             <span className="font-semibold">ES6/ES7</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
