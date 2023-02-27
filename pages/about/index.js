@@ -81,22 +81,31 @@ const index = () => {
           <hr />
           <div className="flex flex-wrap gap-1 mt-3">
             <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
+              NextJS
+            </span>
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               ReactJS
             </span>
             <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               redux/redux-toolkit
             </span>
             <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
-              NextJS
+              Material UI
             </span>
             <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
-              TypeScript
+              Antdesign
+            </span>
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
+              Styled-Component
             </span>
             <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               Sass&Scss
             </span>
             <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               JavaScript
+            </span>
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
+              TypeScript
             </span>
             <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               Git
@@ -112,6 +121,9 @@ const index = () => {
             </span>
             <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
               Bootstrap
+            </span>
+            <span className="rounded-md border border-neutral-800 dark:border-neutral-100 py-1 px-2">
+              PWA
             </span>
           </div>
         </motion.div>

@@ -86,11 +86,7 @@ const Printable = () => {
             Skills
           </div>
           <div className="flex justify-between">
-            <span className="font-semibold">NextJS</span>
-            <span className="bg-black/30 rounded-md"></span>
-          </div>
-          <div className="flex justify-between mb-1">
-            <span className="font-semibold">ReactJS</span>
+            <span className="font-semibold">NextJS, ReactJS</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
@@ -98,31 +94,31 @@ const Printable = () => {
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">Rest API, axios</span>
+            <span className="font-semibold">Rest API, axios, Supabase</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">Supabase</span>
+            <span className="font-semibold">Material-UI, Antdesign</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">GIT</span>
+            <span className="font-semibold">TailwindCss, Styled-Components, Bootstrap</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">Bootstrap ,TailwindCss</span>
+            <span className="font-semibold">SCSS, SASS, JSS</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">SCSS, SASS</span>
+            <span className="font-semibold">Progressive Web App(PWA)</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">Jquery</span>
+            <span className="font-semibold">GIT, GitLab, Github</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
           <div className="flex justify-between mb-1">
-            <span className="font-semibold">Html ,Css ,Javascript</span>
+            <span className="font-semibold">Html ,Css ,Javascript, Jquery</span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
         </div>
@@ -137,6 +133,12 @@ const Printable = () => {
           <div className="flex justify-between">
             <span className="font-semibold py-1">
               Adobe Illustrator/Xd/photoshop
+            </span>
+            <span className="bg-black/30 rounded-md"></span>
+          </div>
+          <div className="flex justify-between">
+            <span className="font-semibold py-1">
+              Figma
             </span>
             <span className="bg-black/30 rounded-md"></span>
           </div>

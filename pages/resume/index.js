@@ -26,6 +26,23 @@ const Resume = () => {
           >
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 ring-8 ring-white dark:ring-neutral-800"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              2023
+            </time>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              Progressive Web App - PWA
+            </h3>
+            <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+              A very nice technology that i have learned. It is needed for me to get into it deeper.
+            </p>
+          </motion.li>
+          <motion.li
+            className="mb-7 pl-4"
+            initial={{ x: "10%", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 ring-8 ring-white dark:ring-neutral-800"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2022
             </time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
