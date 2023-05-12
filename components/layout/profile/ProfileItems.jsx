@@ -17,9 +17,9 @@ const ProfileItems = () => {
       </p>
 
       <a
-        // href="/AlirezaMashayekhi-Resume.pdf"
+        href="/alireza-mashayekhi.pdf"
         className="text-skin hover:text-white border border-skin hover:bg-skin rounded-full text-sm px-5 py-2.5 text-center mb-2 transition duration-300 cursor-pointer"
-        onClick={()=>window.print()}
+        // onClick={()=>window.print()}
       >
         Download CV
       </a>

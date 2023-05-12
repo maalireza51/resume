@@ -10,7 +10,7 @@ const Resume = () => {
           <h3 className="text-lg font-bold ml-2">Resume</h3>
         </div>
         <a
-          href="/AlirezaMashayekhi-Resume.pdf"
+          href="/alireza-mashayekhi.pdf"
           className="mx-3 text-skin text-sm px-5 text-center hover:underline"
         >
           Download CV
