@@ -1,11 +1,12 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { HiOutlineArrowRight, HiRectangleGroup } from "react-icons/hi2";
-import Item from "../../components/layout/content/portfolio/Item";
-import ItemSpecs from "../../components/layout/content/portfolio/ItemSpecs";
+import Item from "../../components/layout/content/experiences/Item";
+import ItemSpecs from "../../components/layout/content/experiences/ItemSpecs";
 
 const Portfolio = () => {
   const [open, setOpen] = useState(false);
   const [clicked, setClicked] = useState("");
+
   const handleSpecs = (img = "") => {
     setOpen(!open);
     setClicked(img);
@@ -15,7 +16,7 @@ const Portfolio = () => {
       <div className="flex border-b-2 mb-5 justify-between">
         <div className="flex">
           <HiRectangleGroup className="w-6 h-6 text-skin" />
-          <h3 className="text-lg font-bold ml-2">Portfolio</h3>
+          <h3 className="text-lg font-bold ml-2">Experiences</h3>
         </div>
         {open && (
           <span
@@ -29,10 +30,11 @@ const Portfolio = () => {
       </div>
       {!open ? (
         <div className="columns-1 md:columns-2 lg:columns-3 gap-3 p-4">
-          <Item img={"shopenet"} handler={handleSpecs} />
+          <Item img={"shopenet"} handler={handleSpecs} priority />
+          <Item img={"portfolio"} handler={handleSpecs} />
+          <Item img={"shab"} handler={handleSpecs} />
           <Item img={"qmoil"} handler={handleSpecs} />
           <Item img={"hubispot"} handler={handleSpecs} />
-          <Item img={"portfolio"} handler={handleSpecs} />
           <Item img={"dekapay"} handler={handleSpecs} />
           <Item img={"rasmSafar"} handler={handleSpecs} />
         </div>

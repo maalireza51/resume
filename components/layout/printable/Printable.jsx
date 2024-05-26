@@ -1,24 +1,24 @@
 import Image from "next/image";
-import {
-  BsFillDiamondFill,
-  BsFillEnvelopeFill,
-  BsPhone,
-  BsPinMapFill,
-} from "react-icons/bs";
-import { FaGraduationCap } from "react-icons/fa";
-import { AiOutlineHistory } from "react-icons/ai";
-import { ImProfile } from "react-icons/im";
+// import {
+//   BsFillDiamondFill,
+//   BsFillEnvelopeFill,
+//   BsPhone,
+//   BsPinMapFill,
+// } from "react-icons/bs";
+// import { FaGraduationCap } from "react-icons/fa";
+// import { AiOutlineHistory } from "react-icons/ai";
+// import { ImProfile } from "react-icons/im";
 
 const Printable = () => {
   return (
-    <div className="grid grid-cols-5 h-screen">
-      <div className="col-span-2 flex flex-col items-center text-white bg-skin relative py-2 border-r-2 border-r-skin">
+    <div className="h-screen">
+      <div className="flex flex-col items-center text-white bg-skin relative py-2 border-r-2 border-r-skin">
         <div
           className="border-white rounded-full mb-3"
           style={{ borderWidth: "6px" }}
         >
           <Image
-            src="/profileImg.jpg"
+            src="/profileImg3.jpg"
             width={170}
             height={170}
             alt="Alireza Mashayekhi"
@@ -39,7 +39,7 @@ const Printable = () => {
         <div className="bg-black/50 w-full text-center py-2 mb-3">
           Front-end Developer
         </div>
-        <div className="text-left w-full pl-2 mb-3">
+        {/* <div className="text-left w-full pl-2 mb-3">
           <ul>
             <li className="flex">
               <BsFillDiamondFill className="mr-2 h-6" />
@@ -142,9 +142,9 @@ const Printable = () => {
             </span>
             <span className="bg-black/30 rounded-md"></span>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="col-span-3 flex flex-col relative p-6">
+      {/* <div className="col-span-3 flex flex-col relative p-6">
         <div className="mb-6">
           <h3 className="flex font-bold text-2xl bg-neutral-700 text-white p-2 rounded-md mb-2 dark:bg-neutral-500">
             <ImProfile className="h-8 mr-1" /> Profile
@@ -308,7 +308,7 @@ const Printable = () => {
             </ol>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

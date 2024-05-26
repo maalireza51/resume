@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <div className="my-5 text-center">
           <h1 className="text-2xl font-black text-skin">Alireza Mashayekhi</h1>
-          <p className="">NextJs FrontEnd Developer</p>
+          <p className="">FrontEnd Developer</p>
         </div>
         <div className="flex flex-col items-center lg:hidden">
           <ProfileItems />

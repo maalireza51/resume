@@ -31,7 +31,7 @@ const MobileNav = ({ handler }) => {
           clickHandler={handler}
         />
         <SideItem
-          title={"portfolio"}
+          title={"experiences"}
           icon={HiOutlineRectangleGroup}
           clickHandler={handler}
         />
@@ -40,11 +40,11 @@ const MobileNav = ({ handler }) => {
           icon={HiOutlineNewspaper}
           clickHandler={handler}
         />
-        <SideItem
+        {/* <SideItem
           title={"contact"}
           icon={HiOutlineEnvelope}
           clickHandler={handler}
-        />
+        /> */}
       </ul>
     </motion.div>
   );

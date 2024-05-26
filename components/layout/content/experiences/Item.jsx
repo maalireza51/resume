@@ -3,13 +3,16 @@ import Image from "next/image";
 import { useState } from "react";
 import { BsFullscreen } from "react-icons/bs";
 
-const Item = ({ img, handler }) => {
+const Item = ({ img, handler, priority = false }) => {
   const [hover, setHover] = useState(false);
   return (
-    <motion.div initial={{scale:0}} animate={{scale:1}} transition={{duration:0.5}}
+    <motion.div
+      initial={{ scale: 0 }}
+      animate={{ scale: 1 }}
+      transition={{ duration: 0.5 }}
       className="relative overflow-hidden rounded-md shadow-md shadow-neutral-900
      bg-slate-50 mb-5"
-      onClick={()=>handler(img)}
+      onClick={() => handler(img)}
     >
       <Image
         alt={img}
@@ -21,6 +24,7 @@ const Item = ({ img, handler }) => {
           width: "100%",
           height: "auto",
         }}
+        priority={priority}
       />
       <motion.div
         className="absolute top-0 left-0 right-0 bottom-0 bg-neutral-900/60

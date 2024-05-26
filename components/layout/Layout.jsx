@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
             <Sidebar className="z-10" />
             <motion.main
               {...boxAnimation}
-              className="h-[80vh] flex-col lg:flex-row flex-1 lg:mx-3 lg:border border-inherit md:shadow-lg lg:dark:shadow-neutral-900 lg:rounded-lg bg-white dark:bg-neutral-800 dark:border-neutral-900"
+              className="z-10 h-[80vh] flex-col lg:flex-row flex-1 lg:mx-3 lg:border border-inherit md:shadow-lg lg:dark:shadow-neutral-900 lg:rounded-lg bg-white dark:bg-neutral-800 dark:border-neutral-900"
             >
               <Content>{children}</Content>
             </motion.main>

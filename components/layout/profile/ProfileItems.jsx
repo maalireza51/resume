@@ -13,11 +13,11 @@ const ProfileItems = () => {
         <br /> and I love to{" "}
         <span className="font-semibold text-skin">Design</span>
         <br />
-        and <span className="font-semibold text-skin">Develope</span>
+        and <span className="font-semibold text-skin">Develop</span>
       </p>
 
       <a
-        href="/alireza-mashayekhi.pdf"
+        href="/AlirezaMashayekhi.pdf"
         className="text-skin hover:text-white border border-skin hover:bg-skin rounded-full text-sm px-5 py-2.5 text-center mb-2 transition duration-300 cursor-pointer"
         // onClick={()=>window.print()}
       >

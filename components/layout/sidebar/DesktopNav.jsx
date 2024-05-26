@@ -30,9 +30,9 @@ const DesktopNav = () => {
         <SideItem title={"/"} icon={HiOutlineHome} />
         <SideItem title={"about"} icon={HiOutlineUser} />
         <SideItem title={"resume"} icon={HiOutlineClipboardDocumentList} />
-        <SideItem title={"portfolio"} icon={HiOutlineRectangleGroup} />
+        <SideItem title={"experiences"} icon={HiOutlineRectangleGroup} />
         <SideItem title={"blog"} icon={HiOutlineNewspaper} />
-        <SideItem title={"contact"} icon={HiOutlineEnvelope} />
+        {/* <SideItem title={"contact"} icon={HiOutlineEnvelope} /> */}
       </ul>
     </motion.div>
   );

@@ -28,11 +28,18 @@ export const specs = {
     title: "shopenet",
     description: "Teamwork in shopenet",
     link: "http://www.shopenet.ir",
+    priority: true
   },
   dekapay: {
     id: 5,
     title: "dekapay",
     description: "Teamwork in dekapay",
+    link: "",
+  },
+  shab: {
+    id: 6,
+    title: "shab",
+    description: "Leadership of the guest team",
     link: "",
   },
 };
