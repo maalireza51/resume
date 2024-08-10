@@ -10,7 +10,7 @@ const Resume = () => {
           <h3 className="text-lg font-bold ml-2">Resume</h3>
         </div>
         <a
-          href="/AlirezaMashayekhi.pdf"
+          href="/AlirezaMashayekhi-v2.pdf"
           className="mx-3 text-skin text-sm px-5 text-center hover:underline"
           target="_blank"
         >
