@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useContext } from "react";
 import { uiContext } from "../../../context/context";
 import { MouseEventHandler } from "react";
@@ -13,7 +13,6 @@ interface SideItemProps {
 }
 
 const SideItem = ({ title, icon: Icon, clickHandler }: SideItemProps) => {
-  const router = useRouter();
   const pathname = usePathname()
   const { setPageChange } = useContext(uiContext);
 

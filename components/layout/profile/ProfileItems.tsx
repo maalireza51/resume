@@ -1,5 +1,5 @@
 "use client";
-import { BsLinkedin, BsGithub, BsTelegram, BsEnvelope } from "react-icons/bs";
+import { BsLinkedin, BsEnvelope } from "react-icons/bs";
 import { motion } from "motion/react";
 
 const ProfileItems = () => {

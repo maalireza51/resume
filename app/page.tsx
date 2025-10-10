@@ -1,11 +1,6 @@
 "use client";
 import { motion } from "motion/react";
-import {
-  HiArrowDown,
-  HiCommandLine,
-  HiCog,
-  HiCircleStack,
-} from "react-icons/hi2";
+import { HiCommandLine, HiCog, HiCircleStack } from "react-icons/hi2";
 import ProfileImg from "../components/layout/profile/ProfileImg";
 import ProfileItems from "../components/layout/profile/ProfileItems";
 

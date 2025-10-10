@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 import {
   HiOutlineClipboardDocumentList,
   HiOutlineHome,
-  HiOutlineRectangleGroup,
   HiOutlineUser,
   HiXMark,
 } from "react-icons/hi2";

@@ -12,7 +12,7 @@ const Palette = () => {
     paletteState === "-410px" ? setpaletteState("-10px") : setpaletteState("-410px");
   };
 
-  const palette = colors.map((color, index) => {
+  const palette = colors.map((color) => {
     return <PaletteColor key={color} color={color} />;
   });
 
