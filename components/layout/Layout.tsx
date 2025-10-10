@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { motion } from "motion/react";
 import { useContext, ReactNode } from "react";
 import { uiContext } from "../../context/context";

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useState } from "react";
 import { HiBars3BottomLeft } from "react-icons/hi2";
 import { AnimatePresence } from "motion/react";

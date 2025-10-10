@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useContext } from "react";
@@ -13,7 +13,7 @@ interface SideItemProps {
 }
 
 const SideItem = ({ title, icon: Icon, clickHandler }: SideItemProps) => {
-  const pathname = usePathname()
+  const pathname = usePathname();
   const { setPageChange } = useContext(uiContext);
 
   return (

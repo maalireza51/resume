@@ -1,5 +1,5 @@
-'use client'
-import { createContext, useEffect, useState ,ReactNode} from "react";
+"use client";
+import { createContext, useEffect, useState, ReactNode } from "react";
 
 export const uiContext = createContext({
   skin: (color: string) => {},
@@ -11,16 +11,15 @@ export const uiContext = createContext({
   pageChange: false,
 });
 
-  interface SkinFunction {
-    (color: string): void;
-  }
+interface SkinFunction {
+  (color: string): void;
+}
 
 export function UiProvider({ children }: { children: ReactNode }) {
   const [skinTheme, setSkinTheme] = useState("theme-purple");
   const [boneTheme, setBoneTheme] = useState(false);
   const [loader, setLoader] = useState(true);
   const [pageChange, setPageChange] = useState(false);
-
 
   const skin: SkinFunction = (color) => {
     localStorage.setItem("Palette", `theme-${color.split("-")[1]}`);
@@ -32,7 +31,7 @@ export function UiProvider({ children }: { children: ReactNode }) {
     localStorage.setItem("Mode", mode);
     setBoneTheme(!boneTheme);
   };
-  
+
   useEffect(() => {
     setLoader(true);
     localStorage.getItem("Mode") === "dark"
@@ -46,7 +45,15 @@ export function UiProvider({ children }: { children: ReactNode }) {
 
   return (
     <uiContext.Provider
-      value={{ skin, bone, setPageChange: setPageChange as (value: boolean) => void, skinTheme, boneTheme, loader, pageChange }}
+      value={{
+        skin,
+        bone,
+        setPageChange: setPageChange as (value: boolean) => void,
+        skinTheme,
+        boneTheme,
+        loader,
+        pageChange,
+      }}
     >
       {children}
     </uiContext.Provider>

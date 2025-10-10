@@ -161,10 +161,10 @@ const AboutPage = () => {
                 {category === "languages"
                   ? "Programming Languages"
                   : category === "frontend"
-                  ? "Frontend Technologies"
-                  : category === "backend"
-                  ? "Backend Technologies"
-                  : "DevOps & Tools"}
+                    ? "Frontend Technologies"
+                    : category === "backend"
+                      ? "Backend Technologies"
+                      : "DevOps & Tools"}
               </h3>
               <div className="grid grid-cols-1 gap-3">
                 {skillList.map((skill, index) => (

@@ -1,6 +1,7 @@
 "use client";
 import { BsLinkedin, BsEnvelope } from "react-icons/bs";
 import { motion } from "motion/react";
+import Link from "next/link";
 
 const ProfileItems = () => {
   const containerVariants = {
@@ -30,10 +31,7 @@ const ProfileItems = () => {
       {/* Greeting */}
       <motion.div variants={itemVariants} className="text-center">
         <h2 className="text-2xl font-bold mb-2 text-gray-800 dark:text-white hidden lg:block">
-          Hi, I&apos;m{" "}
-          <span className="text-skin">
-            Alireza Mashayekhi
-          </span>
+          Hi, I&apos;m <span className="text-skin">Alireza Mashayekhi</span>
         </h2>
       </motion.div>
 
@@ -59,9 +57,10 @@ const ProfileItems = () => {
 
       {/* Download CV Button */}
       <motion.div variants={itemVariants}>
-        <a
-          href="/AlirezaMashayekhi-v2.pdf"
+        <Link
+          href="/AlirezaMashayekhi-resume.pdf"
           className="group relative inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-skin border-2 border-skin rounded-full hover:text-white transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-skin/25"
+          download
         >
           <span className="absolute inset-0 w-full h-full bg-skin rounded-full scale-0 group-hover:scale-100 transition-transform duration-300 ease-out"></span>
           <span className="relative flex items-center space-x-2">
@@ -80,7 +79,7 @@ const ProfileItems = () => {
             </svg>
             <span>Download CV</span>
           </span>
-        </a>
+        </Link>
       </motion.div>
 
       {/* Social Links */}

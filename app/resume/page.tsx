@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { HiClipboardDocumentList } from "react-icons/hi2";
 import { motion } from "motion/react";
 
@@ -27,37 +27,44 @@ const Resume = () => {
               Qanun.bio (AI-Powered Healthcare Research Platform)
             </h3>
             <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
-              Next.js, React, TypeScript, DuckDB, ECharts, SQL, ShadCN/UI, 
+              Next.js, React, TypeScript, DuckDB, ECharts, SQL, ShadCN/UI,
               Agentic AI, Data Analysis, Notebook Systems
             </p>
             <ul className="pl-5 list-disc text-sm">
               <li>
-                Developed comprehensive data science platform enabling researchers to 
-                transform clinical and genomic datasets into actionable scientific insights
+                Developed comprehensive data science platform enabling
+                researchers to transform clinical and genomic datasets into
+                actionable scientific insights
               </li>
               <li>
-                Built interactive dataset analysis and exploration tools with advanced 
-                visualization using ECharts and real-time SQL queries via DuckDB
+                Built interactive dataset analysis and exploration tools with
+                advanced visualization using ECharts and real-time SQL queries
+                via DuckDB
               </li>
               <li>
-                Implemented AI-powered chatbot system that guides researchers through 
-                data analysis workflows and provides explainable AI recommendations
+                Implemented AI-powered chatbot system that guides researchers
+                through data analysis workflows and provides explainable AI
+                recommendations
               </li>
               <li>
-                Created Jupyter-style notebook interface for collaborative research 
-                with version control, reproducible pipelines, and audit-ready reports
+                Created Jupyter-style notebook interface for collaborative
+                research with version control, reproducible pipelines, and
+                audit-ready reports
               </li>
               <li>
-                Designed and developed landing pages and admin panels for the Clinical Data Studio, 
-                Agentic AI Workspace, and Genomic Data Studio products
+                Designed and developed landing pages and admin panels for the
+                Clinical Data Studio, Agentic AI Workspace, and Genomic Data
+                Studio products
               </li>
               <li>
-                Integrated secure data upload, metadata preservation, and end-to-end 
-                encryption features ensuring compliance with healthcare data regulations
+                Integrated secure data upload, metadata preservation, and
+                end-to-end encryption features ensuring compliance with
+                healthcare data regulations
               </li>
               <li>
-                Collaborated with AI engineers to implement autonomous agents that plan, 
-                execute, and explain complex scientific analyses with full traceability
+                Collaborated with AI engineers to implement autonomous agents
+                that plan, execute, and explain complex scientific analyses with
+                full traceability
               </li>
             </ul>
           </motion.li>
@@ -165,27 +172,30 @@ const Resume = () => {
               Dekatech (AI Solutions Platform)
             </h3>
             <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
-              React, Next.js, AI Integration, REST API, 
-              WebSocket, Bootstrap, Responsive Design, Git, Github
+              React, Next.js, AI Integration, REST API, WebSocket, Bootstrap,
+              Responsive Design, Git, Github
             </p>
             <ul className="pl-5 list-disc text-sm">
               <li>
-                Developed intelligent AI-driven flows for enterprise clients, improving customer engagement by 35%
+                Developed intelligent AI-driven flows for enterprise clients,
+                improving customer engagement by 35%
               </li>
               <li>
-                Built real-time systems and AI communication platforms 
-                using WebSocket technology for seamless user interactions
+                Built real-time systems and AI communication platforms using
+                WebSocket technology for seamless user interactions
               </li>
               <li>
-                Integrated machine learning services to create context-aware AI assistants
+                Integrated machine learning services to create context-aware AI
+                assistants
               </li>
               <li>
-                Collaborated with AI engineers to implement agentic systems 
-                that could autonomously handle complex business workflows
+                Collaborated with AI engineers to implement agentic systems that
+                could autonomously handle complex business workflows
               </li>
               <li>
-                Created responsive admin dashboards for managing AI bot configurations, 
-                training data, and performance analytics across multiple client deployments
+                Created responsive admin dashboards for managing AI bot
+                configurations, training data, and performance analytics across
+                multiple client deployments
               </li>
             </ul>
           </motion.li>
@@ -203,28 +213,28 @@ const Resume = () => {
               RasmSafar (Travel booking platform)
             </h3>
             <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
-              React, Next.js, TypeScript, REST API, TailwindCSS, 
-              Material UI, Git, Figma, Responsive Design
+              React, Next.js, TypeScript, REST API, TailwindCSS, Material UI,
+              Git, Figma, Responsive Design
             </p>
             <ul className="pl-5 list-disc text-sm">
               <li>
-                Developed user-friendly travel booking interface with search filters 
-                and booking management system
+                Developed user-friendly travel booking interface with search
+                filters and booking management system
               </li>
               <li>
-                Implemented responsive design ensuring optimal user experience 
+                Implemented responsive design ensuring optimal user experience
                 across desktop and mobile devices
               </li>
               <li>
-                Built comprehensive admin dashboard for managing bookings, 
+                Built comprehensive admin dashboard for managing bookings,
                 travel packages, and customer data
               </li>
               <li>
-                Integrated payment gateways and booking confirmation systems 
-                to streamline the reservation process
+                Integrated payment gateways and booking confirmation systems to
+                streamline the reservation process
               </li>
               <li>
-                Collaborated with design team to implement pixel-perfect UI 
+                Collaborated with design team to implement pixel-perfect UI
                 components following Figma specifications
               </li>
             </ul>

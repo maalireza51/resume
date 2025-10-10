@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { motion } from "motion/react";
 import { HiOutlineMoon, HiOutlineSun } from "react-icons/hi2";
 import { useContext, useEffect, useState } from "react";
