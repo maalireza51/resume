@@ -1,111 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import { UiProvider } from "../context/context";
-import Layout from "../components/layout/Layout";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Alireza Mashayekhi - Software Engineer",
-  description:
-    "Alireza Mashayekhi, Software Engineer with 5+ years experience in full-stack development",
-  applicationName: "Alireza Mashayekhi — Software Engineer",
-  authors: [{ name: "Alireza Mashayekhi", url: "https://github.com/maalireza51" }],
+  metadataBase: new URL("https://alireza-mashayekhi.com"),
+  title: "Alireza Mashayekhi | Software Engineer",
+  description: "Alireza Mashayekhi is a software engineer building frontend platforms, full-stack products, and data-rich web experiences.",
+  applicationName: "Alireza Mashayekhi Portfolio",
+  authors: [{ name: "Alireza Mashayekhi" }],
   creator: "Alireza Mashayekhi",
-  publisher: "Alireza Mashayekhi",
-  keywords: [
-    "Alireza Mashayekhi",
-    "Software Engineer",
-    "Full-Stack Developer",
-    "React",
-    "Next.js",
-    "TypeScript",
-    "JavaScript",
-    "Node.js",
-    "Portfolio",
-    "Resume",
-    "Web Development",
-  ],
-  alternates: {
-    canonical: "/",
-  },
+  keywords: ["Alireza Mashayekhi", "Software Engineer", "Frontend Engineer", "Full-Stack Developer", "React", "Next.js", "TypeScript"],
   openGraph: {
-    title: "Alireza Mashayekhi - Software Engineer",
-    description:
-      "Software Engineer specializing in React, Next.js, and full-stack JavaScript.",
-    url: "/",
-    siteName: "Alireza Mashayekhi",
-    locale: "en_US",
+    title: "Alireza Mashayekhi | Software Engineer",
+    description: "Frontend platforms, full-stack products, and thoughtful web experiences.",
     type: "website",
-    images: [
-      {
-        url: "/twitter-am.png",
-        width: 1200,
-        height: 630,
-        alt: "Alireza Mashayekhi — Portfolio",
-      },
-    ],
+    images: [{ url: "/twitter-am.png", width: 1200, height: 630, alt: "Alireza Mashayekhi" }],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Alireza Mashayekhi - Software Engineer",
-    description:
-      "Software Engineer specializing in React, Next.js, and full-stack JavaScript.",
-    images: ["/twitter-am.png"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-snippet': -1,
-      'max-image-preview': 'large',
-      'max-video-preview': -1,
-    },
-  },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
-  manifest: "/site.webmanifest",
-  referrer: "origin-when-cross-origin",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
-  ],
-  category: "technology",
+  twitter: { card: "summary_large_image", title: "Alireza Mashayekhi | Software Engineer", images: ["/twitter-am.png"] },
+  icons: { icon: "/favicon.ico", apple: "/apple-touch-icon.png" },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <UiProvider>
-          <Layout>{children}</Layout>
-        </UiProvider>
-      </body>
-    </html>
-  );
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return <html lang="en"><body>{children}</body></html>;
 }
